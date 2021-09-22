@@ -1,0 +1,95 @@
+<!-- Index Logic-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Navigation</title>
+</head>
+<body>
+    <header>My Blog</header>
+    <h1>Home Page</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non odio aliquam sunt incidunt, ipsam minima nulla deleniti, omnis temporibus ipsum accusamus rem obcaecati. Dolore illo ducimus, enim dignissimos deserunt omnis.</p>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About me</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact us</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
+-->
+
+<!--
+About me Logic-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    
+   <h1> About us</h1>
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit qui fuga omnis, odio earum cupiditate voluptatem quibusdam, animi repellendus, ad saepe debitis explicabo possimus necessitatibus nemo deserunt architecto distinctio optio!</p>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About me</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact us</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+
+<!--
+Contact me Logic
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <h1>Contact me Page </h1>
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, cum! Eligendi accusamus fuga minus iste similique expedita ipsam, ab eos sunt molestias sit quo incidunt voluptatibus debitis, reprehenderit vitae illo.</p>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About me</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact us</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+
+
