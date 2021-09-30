@@ -33,38 +33,56 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project-1: Creating a Textutils app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Description of our app: It is a text document editor. It will contain a Text box in which we will be adding our text.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Some of its features will be:
 
-## Learn More
+Word Counting.
+Removing Extra spaces.
+Capitalizing the text of the document.
+Adding Lowercase and uppercase to the text.
+Adding Bootstrap to our React App (Textutils)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bootstrap: It is the framework of CSS. With the help of Bootstrap, you can easily put UI components to your Application. To access Bootstrap click here.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In the Documentation of Bootstrap, we will find the starter template which has two main things for adding bootstrap in our application.
 
-### Code Splitting
+1. Bootstrap bundle with popper: It contains the Jquery files, Bootstrap.js, and popper.js files. Copy the code and paste it inside the body tag of  index.html of your react application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Figure 1.3: Adding JS of Bootstrap
 
-### Making a Progressive Web App
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Bootstrap CSS: It contains the CSS files to enhance your application. Copy the code of Bootstrap CSS and add it inside the head tag of Index.html( In the Public folder) of your application.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Figure 1.4: Adding CSS of Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Now we can use the components of Bootstrap in our Application. Open App.js and Remove the Previous content from return(). Let’s begin creating our application.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Figure 1.5: Function-based component
+
+ 
+
+Navbar of our app
+
+Get the Navbar component from the Bootstrap Component section and paste it inside the return(). Make sure of the following things while doing so:
+
+Close those tags which don't have a closing tag. 
+Replace the ‘class’ keyword with ‘ClassName’.
+Replace href= “#” with href= “/”
+The code must be in one tag or use a JSX fragment.
+ 
+
+Edit the Bootstrap component
+
+You can override the Bootstrap CSS code and replace it with your desired one. You can even delete those components which aren’t required.
+
+Point to remember: Whenever you are building the app for production, you should use the npm run build command instead of npm start to host your application.
